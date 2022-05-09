@@ -24,3 +24,10 @@ hs_err_pid*
 
 # Idea
 .idea
+alg_playground.iml
+
+# Target
+target
+
+# File
+*.DS_Store
