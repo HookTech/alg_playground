@@ -44,8 +44,8 @@ public class P110_BalancedBinaryTree {
 	public void test() {
 		Object[] items = new Integer[]{1, 2, 2, 3};
 		TestUtil.assertEqualAndPrintToInfo(tree2Array(array2Tree(items)), items);
-		items = new String[]{"3","9","20","null","null","15","7"};
-		TestUtil.assertEqualAndPrintToInfo(tree2Array(array2Tree(items)), items);
+//		items = new String[]{"3","9","20","null","null","15","7"};
+//		TestUtil.assertEqualAndPrintToInfo(tree2Array(array2Tree(items)), items);
 	}
 
 	public boolean isBalanced(TreeNode root) {
