@@ -15,6 +15,7 @@ import org.testng.annotations.Test;
  * # 1/20/19
  */
 public class P11_ContainerWithMostWater {
+
 	@Test
 	public void test1() {
 		Assert.assertEquals(maxAreaV1(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}), 49);
